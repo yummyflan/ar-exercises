@@ -5,3 +5,9 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+
+store1 = @store1 = Store.find_by(id: 1)
+store2 = @store2 = Store.find_by(id: 2)
+puts store1.name
+store1.name = "Missisauga"
+puts store1.name
